@@ -64,10 +64,12 @@
             }
         </style>
     </head>
-    <header>Welcome to Operation Spark</header>
+    
     <body>
-        <div id="all-contents">
+          <!-- Move this line -->
+        <div id="all-contents">                      
            <nav>
+               <header>Welcome to Operation Spark</header>                                     <!-- to inside this <nav>, before the <ul> -->
                <ul>
                    <li><a href="index.html">Home</a></li>
                    <li><a href="portfolio.html">Portfolio</a></li>
@@ -78,10 +80,14 @@
                <div class="sidebar">
                    <img src="https://i.kym-cdn.com/photos/images/newsfeed/000/476/412/f38.png">
                </div>
-               
+                           <div class="content">
+
+                <ul id="portfolio">
+                </ul>
+            </div>
                <div class="content">
                    <h1>Rodney Harris</h1>
-                   <p>Student at Ducthtown High School.</p>
+                   <p>Student at Dutchtown High School.</p>
                    <section class="interests">
                        <h1>Interests</h1>
                        <ul>
